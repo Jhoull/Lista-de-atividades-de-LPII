@@ -16,9 +16,9 @@ public class Main {
 		double numero3 = numero1 + numero2;
 		
 		if (numero3 >= 10) {
-			System.out.print("Esta é a soma dos seus sois números: "+ numero3);
+			System.out.print("Esta é a soma dos seus dois números: "+ numero3);
 		} else if (numero3 < 10) {
-			System.out.print("A soma de seus números não conseguiu alcançar o valor minimo necessário para seer visualizado.");
+			System.out.print("A soma de seus números não conseguiu alcançar o valor mínimo necessário para seer visualizado.");
 		}
         scanner.close();
 	}
